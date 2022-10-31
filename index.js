@@ -8,28 +8,28 @@ destructivelyAppendCat(name)
    appends a cat to the end of the cats array */
 
 function destructivelyAppendCat(name){
-    cats.push(name);
+    return cats.push(name);
 }
 
 /*destructivelyPrependCat(name)
          prepends a cat to the beginning of the cats array */
  
 function destructivelyPrependCat(name){
-    cats.unshift(name);
+    return cats.unshift(name);
 }      
 
 /* destructivelyRemoveLastCat()
          removes the last cat from the cats array */
 
 function destructivelyRemoveLastCat(){
-    cats.pop();
+    return cats.pop();
 }
 
 /* destructivelyRemoveFirstCat()
         removes the first cat from the cats array */
 
 function destructivelyRemoveFirstCat(){
-    cats.shift();
+    return cats.shift();
 }         
 
 /* appendCat(name)
